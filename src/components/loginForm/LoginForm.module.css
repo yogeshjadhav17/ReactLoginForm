@@ -1,0 +1,53 @@
+body{
+    background-color: blue;
+    padding:0px;
+    margin:0px;
+}.form{
+    width: 700px;
+    color:black;
+    background-color: azure;
+    height: 300px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: capitalize;
+        border:2px solid red;
+        padding:15px;
+        border:100px;
+        margin:15px;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.formLabel{
+    margin-bottom: 5px;
+}
+
+.formField{
+    padding: 8px;
+}
+.formFieldError {
+    border:1px solid grey;
+}
+
+.formFieldErrorMessage{
+    color: grey;
+}
+
+.formActions{
+    display: flex;
+    justify-content: center;
+}
+
+.formSubmitBtn{
+    padding: 5px 6px;
+    min-width: 80px;
+    background-color: blue;
+    color:black;
+    text-transform: capitalize;
+    font-weight: 50;
+}
+
